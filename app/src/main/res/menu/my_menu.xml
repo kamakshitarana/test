@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/new_game"
+        android:icon="@mipmap/ic_launcher_round"
+        android:title="New Game">
+    </item>
+
+    <item
+        android:id="@+id/save_game"
+        android:icon="@mipmap/ic_launcher_round"
+        android:title="Save Game">
+    </item>
+</menu>
