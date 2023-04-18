@@ -9,15 +9,15 @@
     android:background="@drawable/my_gradient_background"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:background="@drawable/shape_text"
-        android:fontFamily="@font/niceugar"
-        android:gravity="center"
-        android:text="I love My INDIA"
-        android:textSize="30dp"></TextView>
+<!--    <TextView-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="@drawable/shape_text"-->
+<!--        android:fontFamily="@font/niceugar"-->
+<!--        android:gravity="center"-->
+<!--        android:text="I love My INDIA"-->
+<!--        android:textSize="30dp"></TextView>-->
 
 
 </LinearLayout>

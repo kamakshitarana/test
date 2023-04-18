@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Checkbox">
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:id="@+id/checkbox1"
+        android:text="Cheese"
+        android:layout_height="wrap_content">
+    </CheckBox>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:id="@+id/checkbox2"
+        android:text="Butter"
+        android:layout_height="wrap_content">
+    </CheckBox>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="CheeseOrder"
+        android:id="@+id/btnOrder"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:id="@+id/radioGRP"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:text="With Delivery"
+            android:id="@+id/radio1"
+            android:layout_height="wrap_content">
+
+        </RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:text="WithOut Delivery"
+            android:id="@+id/radio2"
+            android:layout_height="wrap_content">
+        </RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="proceed order"
+        android:layout_gravity="center"
+        android:id="@+id/btnProceedOrder"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/spinner"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+<!--    <TimePicker-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:id="@+id/time_picker"-->
+<!--        android:layout_height="wrap_content">-->
+<!--    </TimePicker>-->
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/button2"
+        android:text="PickUpTime"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/button3"
+        android:text="PickUpDate"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+    </Button>
+
+</LinearLayout>
