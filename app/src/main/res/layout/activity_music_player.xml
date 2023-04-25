@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/my_gradient_background"
+    android:layout_height="match_parent"
+    tools:context=".musicplayer.MusicPlayer">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Kamakshi's Music Player"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="#040303"
+        android:fontFamily="@font/niceugar"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:src="@drawable/musiclogo"
+        android:layout_height="300dp">
+    </ImageView>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:id="@+id/seekBar"
+        android:layout_height="wrap_content">
+    </SeekBar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:id="@+id/time_left_text"
+            android:fontFamily="@font/niceugar"
+            android:text="small_text"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:id="@+id/song_title"
+            android:fontFamily="@font/niceugar"
+            android:text="song title"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="30dp"
+            android:id="@+id/fast_forword"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/baseline_fast_forward_24"
+            android:layout_height="50dp"/>
+
+        <Button
+            android:layout_width="30dp"
+            android:id="@+id/play_button"
+           android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+        android:background="@drawable/baseline_play_arrow_24"
+            android:layout_height="50dp"/>
+
+        <Button
+            android:layout_width="30dp"
+            android:id="@+id/pause_button"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/baseline_pause_24"
+            android:layout_height="50dp"/>
+
+        <Button
+            android:layout_width="30dp"
+            android:id="@+id/backForword"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/baseline_arrow_back_ios_24"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+</LinearLayout>

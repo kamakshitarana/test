@@ -13,17 +13,21 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".Checkbox"
-            android:exported="true" >
+            android:name=".musicplayer.MusicPlayer"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".widgets.Checkbox"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".menu.MainActivity"
+            android:exported="true"></activity>
     </application>
 
 </manifest>
